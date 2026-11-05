@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/usr/bin/env python3
 
 def print_last_digit(number):
     las_digit = abs(number) % 10
