@@ -13,4 +13,7 @@ class Rectangle(BaseRectangle):
 
     def __str__(self):
         """Return the rectangle description."""
-        return "[Rectangle] {}/{}".format(self._Rectangle__width, self._Rectangle__height)
+        return "[Rectangle] {}/{}".format(
+            self._Rectangle__width,
+            self._Rectangle__height
+            )
