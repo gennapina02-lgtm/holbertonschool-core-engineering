@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Defines an extended Square class."""
 
-BaseSquare = __import__('1square').Square
+BaseSquare = __import__('1-square').Square
 
 
 class Square(BaseSquare):
