@@ -8,8 +8,8 @@ class Rectangle(BaseRectangle):
     """Represent a rectangle with the area and string representation."
 
     def area(self):
-        ""Calculate and return the rectangle's area."""
-        return self.__width * self.__height
+        """Calculate and return the rectangles area."""
+        return self._Rectangle__width * self._Rectangle__height
 
     def __str__(self):
         """Return the rectangle description."""
